@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/blas/fish/controller/AdminController.java=UTF-8
+encoding//src/main/java/com/blas/fish/controller/CategoryController.java=UTF-8
+encoding//src/main/java/com/blas/fish/controller/ClientController.java=UTF-8
+encoding//src/main/java/com/blas/fish/controller/SystemController.java=UTF-8
+encoding//src/main/java/com/blas/fish/dao/impl/CategoryDAOImpl.java=UTF-8
+encoding//src/main/java/com/blas/fish/dao/impl/OrderDAOImpl.java=UTF-8
+encoding//src/main/java/com/blas/fish/dao/impl/OrderDetailDAOImpl.java=UTF-8
+encoding//src/main/java/com/blas/fish/utils/ToURLId.java=UTF-8

@@ -1,0 +1,274 @@
+html {
+	background: white;
+}
+
+h3 {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	min-width: 360px;
+	margin: 0px 0px;
+	padding: 0px 0px;
+	text-align: center;
+}
+
+.page-title {
+	font-size: 120%;
+	text-align: left;
+	margin: 10px 0px;
+}
+
+.header-container {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	text-align: left;
+	position: relative;
+	background: #017FFF;
+	color: white;
+}
+
+.header-container .header-bar {
+	position: absolute;
+	right: 100px;
+	bottom: 20px;
+}
+
+.header-container .header-bar  a {
+	color: white;
+	font-size: bold;
+}
+
+.footer-container {
+	text-align: center;
+	margin-top: 10px;
+	padding: 5px 0px 0px 0px;
+}
+
+.menu-container {
+	text-align: right;
+}
+
+.menu-container a {
+	margin: 5px 5px 5px 10px;
+	color: #004d99;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.site-name {
+	/* font-size: 120%; */
+	padding: 15px;
+}
+
+.demo-container, .login-container, .account-container {
+	padding: 5px;
+	text-align: left;
+	margin: 20px 0px;
+}
+
+.customer-info-container {
+	text-align: left;
+	padding: 0px 5px;
+	padding-bottom: 20px;
+}
+
+.reveiver-info-container {
+	padding: 5px;
+	width: 30%;
+    height: 180px;
+	display: inline-block;
+	text-align: left;
+    border-style: groove;
+    background-color: white;
+}
+
+.reveiver-info-account-info-container {
+	padding: 5px;
+	width: 40%;
+	display: inline-block;
+	text-align: left;
+    border-style: groove;
+}
+.product-preview-container {
+	padding: 5px;
+	width: 28%;
+	margin: 12px;
+	display: inline-block;
+	text-align: left;
+}
+
+.product-preview-container:hover {
+	box-shadow: rgba(0, 0, 0, 0.18) 0px 0px 20px;
+	z-index: 1;
+}
+.shopping-cart-element:hover{
+	box-shadow: rgba(0, 0, 0, 0.18) 0px 0px 20px;
+	z-index: 1;
+}
+
+.product-preview-container input {
+	width: 50px;
+}
+
+/* .product-preview-shopping-cart-container img {
+	width: 200px;
+	height: 150px;
+} */
+
+.product-preview-shopping-cart-container {
+	padding: 15px;
+	/* height:10%; */
+	text-align: left;
+	display: flex;
+}
+
+.btn-confirm-order {
+	text-decoration: none;
+	background: red;
+	padding: 1em 1em;
+	border: none;
+	text-transform: UPPERCASE;
+	font-weight: bold;
+	color: #fff;
+	-webkit-transition: background .3s ease;
+	transition: background .3s ease;
+	text-align: center;
+}
+
+.btn-confirm-order:hover {
+	cursor: pointer;
+	background: #18cfff;
+	color: #fff;
+}
+
+.btn-shipping-here {
+	text-decoration: none;
+	background: #189fff;
+	padding: 1em 1em;
+	border: none;
+	text-transform: UPPERCASE;
+	font-weight: bold;
+	color: #fff;
+	-webkit-transition: background .3s ease;
+	transition: background .3s ease;
+	text-align: center;
+}
+
+.btn-shipping-here:hover {
+	background: #18cfff;
+	color: #fff;
+	cursor: pointer;
+}
+
+.product-preview-shopping-cart-container:hover {
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px;
+	z-index: 1;
+}
+
+.product-preview-shopping-cart-container input {
+	width: 25px;
+	border-radius: 8px;
+}
+
+.product-image {
+    height: 189px;
+    object-fit: cover;
+    width: 100%;
+}
+.category-container{
+	background-image: url('${pageContext.request.contextPath}/category-image?id=${item.id}');    display: flex;
+    align-items: center;
+    line-height: 24px;
+    height: 65px;
+    color: #fff;
+    width: 80%;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+ul {
+	list-style-type: none;
+	padding-left: 5px;
+	text-align: center;
+}
+
+.btnDelete {
+	margin-top: 60px;
+	text-decoration: none;
+	background: #189fff;
+	padding: 1em 1em;
+	border: none;
+	text-transform: UPPERCASE;
+	font-weight: bold;
+	color: #fff;
+	-webkit-transition: background .3s ease;
+	transition: background .3s ease;
+	text-align: center;
+}
+
+.btnDelete:hover {
+	background: #18cfff;
+	cursor: pointer;
+	color: #fff;
+}
+
+.navi-item {
+	margin: 5px 5px 5px 20px;
+}
+
+.button-update-sc {
+	color: red;
+	margin: 5px 5px 5px 20px;
+}
+
+.button-send-sc {
+	color: red;
+	margin: 5px 5px 5px 20px;
+}
+
+.error-message {
+	font-size: 90%;
+	color: red;
+	font-style: italic;
+}
+
+.price {
+	color: blue;
+	font-weight: bold;
+}
+
+.subtotal {
+	color: red;
+	font-weight: bold;
+}
+
+.total {
+	color: red;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+table td {
+	padding: 5px;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #189fff;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
